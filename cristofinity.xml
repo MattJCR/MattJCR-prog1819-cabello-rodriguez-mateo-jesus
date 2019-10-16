@@ -1,0 +1,230 @@
+<cristofinity>
+	<totalcatalogo>5</totalcatalogo>
+	<totalusuarios>4</totalusuarios>
+	<catalogo>
+		<media>
+			<tipo>Pelicula</tipo>
+			<idmedia>1</idmedia>
+			<titulo>Vengadores EndGame</titulo>
+			<genero>Ficcion</genero>
+			<duracionensegundos>16200</duracionensegundos>
+			<fechapublicacion>24/04/2019</fechapublicacion>
+			<pegi>13</pegi>
+			<descripcion>Ultima pelicula de los vengadores....</descripcion>
+			<reparto>Chris Hemsworth, Mark Ruffalo, Chris Evans, Josh Brolin, Tom Hiddleston</reparto>
+			<direccion>Anthony Russo, Joe Russo</direccion>
+			<guion>Christopher Markus, Stephen McFeely</guion>
+			<productor>Marvel Studios</productor>
+			<puntuacion>5</puntuacion>
+			<totalmegusta>2</totalmegusta>
+			<totalcomentarios>2</totalcomentarios>
+			<listacomentarios>
+				<comentario>
+					<idcomentario>1</idcomentario>
+					<login>thanos</login>
+					<texto>Vaya final...!</texto>
+				</comentario>
+				<comentario>
+					<idcomentario>2</idcomentario>
+					<login>noelia01</login>
+					<texto>Callate thanos!!</texto>
+				</comentario>
+			</listacomentarios>
+			<totalvaloraciones>2</totalvaloraciones>
+			<valoraciones>
+				<valoracion>
+					<idusuario>thanos</idusuario>
+					<puntuacion>3</puntuacion>
+				</valoracion>
+				<valoracion>
+					<idusuario>noelia01</idusuario>
+					<puntuacion>8</puntuacion>
+				</valoracion>
+			</valoraciones>
+			<valoracionmediaencatalogo>2,625</valoracionmediaencatalogo>
+		</media>
+		<media>
+			<tipo>Pelicula</tipo>
+			<idmedia>2</idmedia>
+			<titulo>Vengadores Era de Ultron</titulo>
+			<genero>Ficcion</genero>
+			<duracionensegundos>16200</duracionensegundos>
+			<fechapublicacion>24/04/2015</fechapublicacion>
+			<pegi>13</pegi>
+			<descripcion>Tony Stark intenta crear un escudo para el mundo....</descripcion>
+			<reparto>Chris Hemsworth, Mark Ruffalo, Chris Evans, Josh Brolin, Tom Hiddleston</reparto>
+			<direccion>Anthony Russo, Joe Russo</direccion>
+			<guion>Christopher Markus, Stephen McFeely</guion>
+			<productor>Marvel Studios</productor>
+			<puntuacion>3</puntuacion>
+			<totalmegusta>1</totalmegusta>
+			<totalcomentarios>1</totalcomentarios>
+			<listacomentarios>
+				<comentario>
+					<idcomentario>1</idcomentario>
+					<login>thanos</login>
+					<texto>La pelicula me parece una M... porque me matan!</texto>
+				</comentario>
+			</listacomentarios>
+			<totalvaloraciones>1</totalvaloraciones>
+			<valoraciones>
+				<valoracion>
+					<idusuario>thanos</idusuario>
+					<puntuacion>3</puntuacion>
+				</valoracion>
+			</valoraciones>
+			<valoracionmediaencatalogo>1,562</valoracionmediaencatalogo>
+		</media>
+		<media>
+			<tipo>Cancion</tipo>
+			<idmedia>3</idmedia>
+			<titulo>Welcome to the Jungle</titulo>
+			<genero>Hair Metal</genero>
+			<duracionensegundos>194</duracionensegundos>
+			<fechapublicacion>24/04/2019</fechapublicacion>
+			<pegi>13</pegi>
+			<descripcion>Jungle, welcome to the jungle Watch it bring you to your shun n-n-n-n-n-n-n-n knees, knees...</descripcion>
+			<artista>Guns N' Roses</artista>
+			<album>Appetite for Destruction</album>
+			<puntuacion>5</puntuacion>
+			<totalmegusta>1</totalmegusta>
+			<totalcomentarios>1</totalcomentarios>
+			<listacomentarios>
+				<comentario>
+					<idcomentario>1</idcomentario>
+					<login>noelia01</login>
+					<texto>No esta mal...</texto>
+				</comentario>
+			</listacomentarios>
+			<totalvaloraciones>1</totalvaloraciones>
+			<valoraciones>
+				<valoracion>
+					<idusuario>noelia01</idusuario>
+					<puntuacion>5</puntuacion>
+				</valoracion>
+			</valoraciones>
+			<valoracionmediaencatalogo>2,562</valoracionmediaencatalogo>
+		</media>
+		<media>
+			<tipo>Serie</tipo>
+			<idmedia>4</idmedia>
+			<titulo>Juego de Tronos</titulo>
+			<genero>Fantasia</genero>
+			<duracionensegundos>180000</duracionensegundos>
+			<fechapublicacion>24/04/2019</fechapublicacion>
+			<pegi>18</pegi>
+			<descripcion>Unos ti@s se pelean por un trono de hierro...</descripcion>
+			<reparto>Emilia Clarke, Peter Dinklage, Kit Harington, Maisie Williams...</reparto>
+			<direccion>Alan Taylor, Alex Graves, Jeremy Podeswa</direccion>
+			<guion>George R. R. Martin, David Benioff, D. B. Weiss...</guion>
+			<productor>David Benioff, D. B. Weiss</productor>
+			<temporadas>8</temporadas>
+			<capitulos>90</capitulos>
+			<estado>finalizada</estado>
+			<puntuacion>9</puntuacion>
+			<totalmegusta>1</totalmegusta>
+			<totalcomentarios>1</totalcomentarios>
+			<listacomentarios>
+				<comentario>
+					<idcomentario>1</idcomentario>
+					<login>MadMatt</login>
+					<texto>Vaya final...!</texto>
+				</comentario>
+			</listacomentarios>
+			<totalvaloraciones>1</totalvaloraciones>
+			<valoraciones>
+				<valoracion>
+					<idusuario>MadMatt</idusuario>
+					<puntuacion>9</puntuacion>
+				</valoracion>
+			</valoraciones>
+			<valoracionmediaencatalogo>4,612</valoracionmediaencatalogo>
+		</media>
+		<media>
+			<tipo>Videojuego</tipo>
+			<idmedia>5</idmedia>
+			<titulo>Call Of Duty</titulo>
+			<genero>Shooter</genero>
+			<duracionensegundos>10800000</duracionensegundos>
+			<fechapublicacion>24/04/2019</fechapublicacion>
+			<pegi>18</pegi>
+			<descripcion>Gente se pega tiros y grita por su micro de la Play...</descripcion>
+			<desarrollador> Ben Chichoski </desarrollador>
+			<plataformas>ps2</plataformas>
+			<editor>Tencent Holdings, Activision, Nokia</editor>
+			<jugadores>10</jugadores>
+			<puntuacion>7</puntuacion>
+			<totalmegusta>3</totalmegusta>
+			<totalcomentarios>3</totalcomentarios>
+			<listacomentarios>
+				<comentario>
+					<idcomentario>1</idcomentario>
+					<login>MadMatt</login>
+					<texto>Este juego me puede venir bien para un ejercicio...</texto>
+				</comentario>
+				<comentario>
+					<idcomentario>2</idcomentario>
+					<login>thanos</login>
+					<texto>Este juego no mola...</texto>
+				</comentario>
+				<comentario>
+					<idcomentario>3</idcomentario>
+					<login>noelia01</login>
+					<texto>Este juego es de niños rata...</texto>
+				</comentario>
+			</listacomentarios>
+			<totalvaloraciones>3</totalvaloraciones>
+			<valoraciones>
+				<valoracion>
+					<idusuario>MadMatt</idusuario>
+					<puntuacion>9</puntuacion>
+				</valoracion>
+				<valoracion>
+					<idusuario>thanos</idusuario>
+					<puntuacion>5</puntuacion>
+				</valoracion>
+				<valoracion>
+					<idusuario>noelia01</idusuario>
+					<puntuacion>7</puntuacion>
+				</valoracion>
+			</valoraciones>
+			<valoracionmediaencatalogo>3,687</valoracionmediaencatalogo>
+		</media>
+	</catalogo>
+	<usuarios>
+		<usuario>
+			<tipousuario>normal</tipousuario>
+			<login>thanos</login>
+			<nombre>Raul</nombre>
+			<apellidos>Renol Cinco</apellidos>
+			<urlfotoperfil>/home/cristofinity/user/thanos/perfil.jpg</urlfotoperfil>
+			<totallistamedia>3</totallistamedia>
+			<listamedia>1 2 5</listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario>normal</tipousuario>
+			<login>noelia01</login>
+			<nombre>Noelia</nombre>
+			<apellidos>Hernandez</apellidos>
+			<urlfotoperfil>/home/cristofinity/user/noelia01/perfil.jpg</urlfotoperfil>
+			<totallistamedia>3</totallistamedia>
+			<listamedia>1 3 5</listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario>normal</tipousuario>
+			<login>MadMatt</login>
+			<nombre>Mateo</nombre>
+			<apellidos>Cabello Rodriguez</apellidos>
+			<urlfotoperfil>/home/cristofinity/user/matt/perfil.jpg</urlfotoperfil>
+			<totallistamedia>2</totallistamedia>
+			<listamedia>4 5</listamedia>
+		</usuario>
+		<usuario>
+			<tipousuario>admin</tipousuario>
+			<login>zizou</login>
+			<nombre>Jaime</nombre>
+			<apellidos>Zidane God</apellidos>
+			<urlfotoperfil>/home/cristofinity/user/zizou/perfil.jpg</urlfotoperfil>
+		</usuario>
+	</usuarios>
+</cristofinity>

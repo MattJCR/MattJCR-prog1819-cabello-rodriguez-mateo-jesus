@@ -1,0 +1,283 @@
+/*********************************************************************
+ * PRACTICA DE PROGRAMACION DEL TRIMESTRE 3 DE 1ºDAM CURSO 2018/2020 *
+ * 				AUTOR: MATEO JESUS CABELLO RODRIGUEZ				 *
+ *********************************************************************/
+
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <iomanip>
+#include <unistd.h>
+#include "cristofinity.h"
+#include "usuario.h"
+#include "normal.h"
+#include "administrador.h"
+#include "media.h"
+#include "cancion.h"
+#include "pelicula.h"
+#include "serie.h"
+#include "videojuego.h"
+//#include "pugixml/src/pugixml.cpp"
+#define white "\033[1;0m"
+#define red "\033[1;31m"
+#define green "\033[1;32m"
+#define blue "\033[1;34m"
+#define cyan "\033[1;36m"
+#define yellow "\033[1;33m"
+
+using namespace std;
+
+int main(){
+	Normal u;
+	cout << red << "OBJETO USUARIO" << white << endl;
+	u.setIDUsuario("MadMatt");
+	u.setNombre("Mateo");
+	u.setApellidos("Cabello");
+	u.setURLFotoPerfil("/home/img/foto.jpg");
+	cout << u;
+	Media m;
+	cout << red << "OBJETO MEDIA" << white << endl;
+	m.setIDMedia(1);
+	cout << m;
+	m.InsertarComentario("Comentario de Prueba","MadMatt");
+	m.InsertarComentario("Comentario de Prueba2","MadMatt");
+	m.InsertarComentario("Comentario de Prueba3","MadMatt");
+	m.InsertarComentario("Comentario de Prueba4","MadMatt");
+	m.InsertarValoracion(10,"MadMatt");
+	m.InsertarValoracion(7,"Prueba2");
+	m.InsertarValoracion(3.5,"Prueba2");
+	m.InsertarValoracion(9,"Prueba3");
+	cout << blue;
+	m.MostrarComentarios();
+	cout << white;
+	m.BorrarComentarioPorIDComentario(1);
+	m.BorrarValoracionPorIDUsuario("MadMatt");
+	m.InsertarValoracion(10,"MadMatt2");
+	m.InsertarValoracion(10,"MadMatt3");
+	m.BorrarValoracionPorIDUsuario("Prueba2");
+	m.BorrarValoracionPorIDUsuario("Prueba3");
+	m.InsertarValoracion(10,"MadMatt");
+	cout << blue;
+	m.MostrarComentarios();
+	cout << white;
+	m.BorrarComentarioPorIDComentario(1);
+	m.BorrarComentarioPorIDComentario(2);
+	m.InsertarComentario("Comentario de Prueba5","MadMatt");
+	m.InsertarComentario("Comentario de Prueba6","MadMatt");
+	cout << blue;
+	m.MostrarComentarios();
+	m.MostrarValoraciones();
+	cout << white;
+	Cancion c;
+	cout << red << "OBJETO CANCION" << white << endl;
+	c.setIDMedia(2);
+	cout << c;
+	c.InsertarComentario("Comentario de Prueba","MadMatt");
+	c.InsertarComentario("Comentario de Prueba2","MadMatt");
+	c.InsertarComentario("Comentario de Prueba3","MadMatt");
+	c.InsertarComentario("Comentario de Prueba4","MadMatt");
+	c.InsertarValoracion(10,"MadMatt");
+	c.InsertarValoracion(7,"Prueba3");
+	c.InsertarValoracion(3.5,"Prueba2");
+	c.InsertarValoracion(9,"Prueba3");
+	cout << blue;
+	c.MostrarComentarios();
+	cout << white;
+	c.BorrarComentarioPorIDComentario(1);
+	c.BorrarValoracionPorIDUsuario("MadMatt");
+	c.InsertarValoracion(10,"MadMatt2");
+	c.InsertarValoracion(10,"MadMatt3");
+	c.BorrarValoracionPorIDUsuario("Prueba2");
+	c.BorrarValoracionPorIDUsuario("Prueba3");
+	c.InsertarValoracion(10,"MadMatt");
+	cout << blue;
+	c.MostrarComentarios();
+	cout << white;
+	c.BorrarComentarioPorIDComentario(1);
+	c.BorrarComentarioPorIDComentario(2);
+	c.InsertarComentario("Comentario de Prueba5","MadMatt");
+	c.InsertarComentario("Comentario de Prueba6","MadMatt");
+	cout << blue;
+	c.MostrarComentarios();
+	c.MostrarValoraciones();
+	cout << white;
+	Pelicula p;
+	cout << red << "OBJETO PELICULA" << white << endl;
+	p.setIDMedia(3);
+	cout << p;
+	p.InsertarComentario("Comentario de Prueba","MadMatt");
+	p.InsertarComentario("Comentario de Prueba2","MadMatt");
+	p.InsertarComentario("Comentario de Prueba3","MadMatt");
+	p.InsertarComentario("Comentario de Prueba4","MadMatt");
+	p.InsertarValoracion(10,"MadMatt");
+	p.InsertarValoracion(7,"Prueba");
+	p.InsertarValoracion(3.5,"Prueba");
+	p.InsertarValoracion(9,"Prueba3");
+	cout << blue;
+	p.MostrarComentarios();
+	cout << white;
+	p.BorrarComentarioPorIDComentario(1);
+	p.BorrarValoracionPorIDUsuario("MadMatt");
+	p.InsertarValoracion(10,"MadMatt2");
+	p.InsertarValoracion(10,"MadMatt3");
+	p.BorrarValoracionPorIDUsuario("Prueba2");
+	p.BorrarValoracionPorIDUsuario("Prueba3");
+	p.InsertarValoracion(10,"MadMatt");
+	cout << blue;
+	p.MostrarComentarios();
+	cout << white;
+	p.BorrarComentarioPorIDComentario(1);
+	p.BorrarComentarioPorIDComentario(2);
+	p.InsertarComentario("Comentario de Prueba5","MadMatt");
+	p.InsertarComentario("Comentario de Prueba6","MadMatt");
+	cout << blue;
+	p.MostrarComentarios();
+	p.MostrarValoraciones();
+	cout << white;
+	Serie s;
+	cout << red << "OBJETO SERIE" << white << endl;
+	s.setIDMedia(4);
+	cout << s;
+	s.InsertarComentario("Comentario de Prueba","MadMatt");
+	s.InsertarComentario("Comentario de Prueba2","MadMatt");
+	s.InsertarComentario("Comentario de Prueba3","MadMatt");
+	s.InsertarComentario("Comentario de Prueba4","MadMatt");
+	s.InsertarValoracion(10,"MadMatt");
+	s.InsertarValoracion(7,"Prueba");
+	s.InsertarValoracion(3.5,"Prueba");
+	s.InsertarValoracion(9,"Prueba");
+	cout << blue;
+	s.MostrarComentarios();
+	cout << white;
+	s.BorrarComentarioPorIDComentario(1);
+	s.BorrarValoracionPorIDUsuario("MadMatt");
+	s.InsertarValoracion(10,"MadMatt2");
+	s.InsertarValoracion(10,"MadMatt3");
+	s.BorrarValoracionPorIDUsuario("Prueba2");
+	s.BorrarValoracionPorIDUsuario("Prueba3");
+	s.InsertarValoracion(10,"MadMatt");
+	cout << blue;
+	s.MostrarComentarios();
+	cout << white;
+	s.BorrarComentarioPorIDComentario(1);
+	s.BorrarComentarioPorIDComentario(2);
+	s.InsertarComentario("Comentario de Prueba5","MadMatt");
+	s.InsertarComentario("Comentario de Prueba6","MadMatt");
+	cout << blue;
+	s.MostrarComentarios();
+	s.MostrarValoraciones();
+	cout << white;
+	Videojuego v;
+	cout << red << "OBJETO VIDEOJUEGO" << white << endl;
+	v.setIDMedia(5);
+	cout << v;
+	v.InsertarComentario("Comentario de Prueba","MadMatt");
+	v.InsertarComentario("Comentario de Prueba2","MadMatt");
+	v.InsertarComentario("Comentario de Prueba3","MadMatt");
+	v.InsertarComentario("Comentario de Prueba4","MadMatt");
+	v.InsertarValoracion(10,"MadMatt");
+	v.InsertarValoracion(7,"Prueba");
+	v.InsertarValoracion(3.5,"Prueba2");
+	v.InsertarValoracion(9,"Prueba3");
+	cout << blue;
+	v.MostrarComentarios();
+	cout << white;
+	v.BorrarComentarioPorIDComentario(1);
+	v.BorrarValoracionPorIDUsuario("MadMatt");
+	v.InsertarValoracion(10,"MadMatt2");
+	v.InsertarValoracion(10,"MadMatt3");
+	v.BorrarValoracionPorIDUsuario("Prueba2");
+	v.BorrarValoracionPorIDUsuario("Prueba3");
+	v.InsertarValoracion(10,"MadMatt");
+	cout << blue;
+	v.MostrarComentarios();
+	cout << white;
+	v.BorrarComentarioPorIDComentario(1);
+	v.BorrarComentarioPorIDComentario(2);
+	v.InsertarComentario("Comentario de Prueba5","MadMatt");
+	v.InsertarComentario("Comentario de Prueba6","MadMatt");
+	cout << blue;
+	v.MostrarComentarios();
+	v.MostrarValoraciones();
+	cout << white;
+	cout << red << "OBJETO NORMAL" << white << endl;
+	Normal n;
+	cout << "INSERTA M: " << endl;
+	n.InsertarMediaEnListaMedia(&m);
+	cout << "INSERTA P: " << endl;
+	n.InsertarMediaEnListaMedia(&p);
+	cout << "INSERTA S: " << endl;
+	n.InsertarMediaEnListaMedia(&s);
+	cout << "INSERTA C: " << endl;
+	n.InsertarMediaEnListaMedia(&c);
+	cout << "INSERTA V: " << endl;
+	n.InsertarMediaEnListaMedia(&v);
+	n.MostrarListaMedia();
+	//n.BorrarListaMedia();
+	n.OrdenarListaMediaPorIDMedia();
+	n.MostrarListaMedia();
+	//n.BorrarListaMedia();
+	//n.BorrarListaMedia();
+	n.OrdenarListaMediaPorIDMedia();
+	n.MostrarListaMedia();
+	/*
+	cout << red << "LECTURA XML" << white << endl;
+	pugi::xml_document doc;
+	pugi::xml_parse_result result = doc.load_file("cristofinity.xml");
+	for (pugi::xml_node node = doc.child("cristofinity").child("catalogo").child("media"); node; node = node.next_sibling("media"))
+	{
+		cout << "Tipo: " << node.child("tipo").child_value() << endl;
+		cout << "IDMedia: " << node.child("idmedia").child_value() << endl;
+		cout << "Descripcion: " << node.child("descripcion").child_value() << endl;
+
+	}
+	for (pugi::xml_node node = doc.child("cristofinity").child("usuarios").child("usuario"); node; node = node.next_sibling("usuario"))
+	{
+		string aux = node.child("listamedia").child_value(), aux2;
+		cout << aux << endl;
+		for (int i = 0; i < aux.size(); ++i)
+		{
+			if (aux[i] != ' ')
+			{
+				aux2 += aux[i];
+			}else if(aux[i] == ' ' && i != 0){
+				cout << "Sin espacios:" << aux2 << endl; 
+				aux2.clear();
+				//aux2.stoi();
+			}
+		}
+	}
+	cout << red;
+	*/
+	/*
+	string Prueba, Prueba2;
+	cin.clear();
+	cin.ignore(256, '\n');
+	getline(cin,Prueba);
+	cout << Prueba << endl;
+	cin >> Prueba2;
+	cout << Prueba2 << endl;
+	cin >> m;
+	cout << m;
+	cin >> m;
+	cout << m;
+	cin >> c;
+	cout << c;
+	cin >> s;
+	cout << s;
+	cin >> p;
+	cout << p;
+	cin >> v;
+	cout << v;
+	*/
+	cin.clear();
+	cin.ignore(256,'\n');
+	u.InsertarComentario(&p);
+	u.BorrarComentario(&p);
+	u.MostrarComentarios(&p);
+	u.InsertarMediaEnListaMedia(&p);
+	u.InsertarMediaEnListaMedia(&c);
+	u.InsertarMediaEnListaMedia(&v);
+	u.MostrarListaMedia();
+	cout << white << endl;
+}
